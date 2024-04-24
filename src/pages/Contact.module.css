@@ -1,0 +1,33 @@
+@import "../assets/variables.css";
+
+.contactContainer {
+  height: 80vh;
+ display: flex;
+}
+
+.contactTable {
+  align-self: right;
+  width: 50vw;
+  align-self: right;
+  margin: 10em 5em 5em auto;
+  text-decoration: none;
+  border-spacing: 20px;
+}
+
+.contactHeader {
+  text-align: right;
+}
+
+.contactDetails {
+  text-align: left;
+}
+
+.contactLink {
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.contactLink:hover {
+  color: var(--accent);
+}

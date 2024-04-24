@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Kalnia&display=swap");
+
+.titleLink {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  /* width: 50%; */
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo {
+  flex-grow: 0;
+  flex-shrink: 1;
+  height: 2em;
+  max-height: 20vh;
+  margin: 0 10px;
+}
+
+.name {
+  flex-grow: 2;
+  wrap: nowrap;
+  text-decoration: none;
+  font-size: 4em;
+  color: var(--text-primary);
+  max-height: 20vh;
+  margin: auto 10px;
+  text-transform: lowercase;
+  /* text-transform: uppercase; */
+  font-stretch: expanded;
+}
